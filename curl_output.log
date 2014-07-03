@@ -1,0 +1,3 @@
+{"result":[{"alternative":[{"transcript":"momo","confidence":0.37482831},{"transcript":"hello"},{"transcript":"瑪露"},{"transcript":"mo mo"},{"transcript":"mono"}],"final":true}],"result_index":0}
+{"result":[{"alternative":[{"transcript":"今天要來錄影片","confidence":0.79080743},{"transcript":"今天要來路影片"},{"transcript":"今天要來露營店"},{"transcript":"今天要來露營業"},{"transcript":"今天要來露營"}],"final":true}],"result_index":0}
+{"result":[{"alternative":[{"transcript":"夜夜夜","confidence":0.43755952},{"transcript":"夜夜夜夜"},{"transcript":"ya ya ya"},{"transcript":"yeah yeah yeah"},{"transcript":"葉葉葉"}],"final":true}],"result_index":0}

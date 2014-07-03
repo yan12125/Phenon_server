@@ -1,0 +1,261 @@
+* {
+	margin  		: 0;
+	padding 		: 0;
+}
+
+body {
+	background 		: #aaa;
+}
+
+table {
+	margin 			: 0 auto;
+}
+
+td {
+	padding 		: 4px;
+	border 			: 1px solid #333;
+	text-align 		: center;
+	background 		: #ccc;
+}
+
+
+form {
+	text-align 		: left;
+}
+
+fieldset {
+	padding 		: 15px;
+}
+
+a img {
+	border 			: none;
+}
+
+.center {
+	text-align 		: center;
+}
+
+#mainWrapper {
+	width 			: 1000px;
+	margin 			: 0 auto;
+	background 		: #fafafa;
+}
+
+#header {
+	margin 			: 0 auto;
+	padding 		: 10px 0;
+	background 		: #333;
+}
+
+#header h1 {
+	padding 		: 10px;
+	color 			: #f00;
+	font-size 		: 2em;
+}
+
+#navigation {
+	background 		: #000;
+	height 			: 30px;
+	line-height 	: 30px;
+	border 			: 1px solid #666;
+	border-left 	: none;
+	border-right 	: none;
+}
+
+.horizontalNav {
+	margin 			: 0 0 0 5px;
+	color 			: #fff;
+}
+
+.horizontalNav li {
+	display 		: inline;
+}
+
+.horizontalNav li a {
+	padding 		: 2px 6px;
+	margin 			: 0 5px 0 0;
+	color 			: #fff;
+	font-weight 	: bold;
+	border 			: 1px solid #666;
+	text-decoration : none;
+}
+
+.horizontalNav li a:hover {
+	background 		: #eee;
+	color 			: #f33;
+	border 			: 1px solid #633;
+}
+
+#content h2.mainHeading {
+	color 			: #f00;
+	margin 			: 10px 0;
+}
+
+#footer {
+	height 			: 25px;
+	margin 			: 10px 0 0;
+	background 		: #333;
+	color 			: #fff;
+}
+
+#uploadForm {
+	margin 			: 0 auto;
+	padding 		: 20px;
+	width 			: 600px;
+	background 		: #ccc;
+	border 			: 1px solid #333;
+}
+
+.formRow {
+	margin 			: 5px 0;
+	clear 			: both;
+}
+
+.formRow label {
+	width 			: 150px;
+	float 			: left;
+	display 		: block;
+	font-weight 	: bold;
+}
+
+.error {
+	background 		: #a00;
+	padding 		: 5px;
+	margin 			: 5px 0;
+	color 			: #fff;
+}
+
+form .submit{
+	padding 		: 5px;
+	background 		: #333;
+}
+
+#uploadResults {
+	margin 			: 10px auto 0;
+	background 		: #ccc;
+	border 			: 1px solid #333;
+}
+
+#uploadResults h3 {
+	margin-bottom 	: 10px;
+	padding 		: 5px;
+	background 		: #333;
+	color 			: #f00;
+}
+
+.videoThumbnail {
+	text-align 		: center;
+	position 		: relative;
+}
+
+.processing {
+	position 		: absolute;
+	width 			: 100%;
+	height 			: 100%;
+	color 			: #fff;
+	top 			: 0px;
+	left 			: 0px;
+
+}
+
+.processing img {
+	padding 		: 15% 0 0;
+}
+
+#ffmpegCommand {
+	text-align 		:left;
+}
+
+#videoGallery {
+	text-align 		: center;
+}
+
+#videoWindow {
+	width 			: 600px;
+	margin 			: 10px auto 0;
+	border 			: 1px solid #333;
+}
+
+#videoWindow h2.videoTitle {
+	text-align 		: center;
+	padding 		: 2px;
+	background 		: #333;
+	color 			: #f00;
+}
+
+#player {
+	display 		: block;
+	width 			: 600px;
+	height 			: 450px;
+	position 		: relative;
+}
+
+.videoLinks {
+	background 		: #333;
+	padding 		: 2px;
+	height 			: 25px;
+	line-height 	: 25px;
+	text-align 		: center;
+}
+
+
+.linkButton {
+	padding 		: 2px 4px 0;
+	margin 			: 0 4px;
+	border 			: 1px solid #eee;
+	background 		: #ccc;
+	text-decoration : none;
+	color 			: #000;
+}
+
+.linkButton:hover {
+	color 			: #f00;
+	background 		: #fff;
+	border 			: 1px solid #fee;
+}
+
+/*
+.linkButton {
+	-moz-box-shadow		:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow	:inset 0px 1px 0px 0px #ffffff;
+	box-shadow		:inset 0px 1px 0px 0px #ffffff;
+	background		:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background		:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background		:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background		:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background		:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background		:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter			:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color	:#ededed;
+	-moz-border-radius	:6px;
+	-webkit-border-radius	:6px;
+	border-radius		:6px;
+	border			:1px solid #dcdcdc;
+	display			:inline-block;
+	cursor			:pointer;
+	color			:#777777;
+	font-family		:arial;
+	font-size		:15px;
+	font-weight		:bold;
+	padding			:6px 24px;
+	text-decoration		:none;
+	text-shadow		:0px 1px 0px #ffffff;
+}
+
+.linkButton:hover {
+	background		:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background		:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background		:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background		:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background		:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background		:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter			:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color	:#dfdfdf;
+}
+
+.linkButton:active {
+	position	:relative;
+	top		:1px;
+}
+
+*/

@@ -1,0 +1,1 @@
+http://127.0.0.1:5000/?input_file=../transformer/test.mp4&output_file=../transformer/test2.mp4&config_file=../transformer/config.json

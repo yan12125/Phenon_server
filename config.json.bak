@@ -1,0 +1,82 @@
+{
+    "texts": [
+        {
+            "start": 0, 
+            "end": 5, 
+            "x": 0, 
+            "y": 0, 
+            "text": "lalala", 
+            "fontcolor": "white", 
+            "fontsize": 30
+        }, 
+        {
+            "start": 2,  
+            "end": 3, 
+            "x": 100, 
+            "y": 100, 
+            "text": "fjdsfojo", 
+            "fontcolor": "green", 
+            "fontsize": 50
+        }, 
+        {
+            "text": "中文字好棒棒", 
+            "start": 3, 
+            "end": 4, 
+            "x": 100, 
+            "y": 100, 
+            "fontcolor": "green", 
+            "fontsize": 50, 
+            "fontfile": "/usr/share/fonts/wenquanyi/wqy-zenhei/wqy-zenhei.ttc"
+        }, 
+        {
+            "text": "大家好", 
+            "start": 0, 
+            "end": 5, 
+            "x": 500, 
+            "y": 300, 
+            "fontsize": 80, 
+            "fontcolor": "#00FFFF", 
+            "fade_in": 1, 
+            "fade_out": 1, 
+            "fontfile": "/usr/share/fonts/wenquanyi/wqy-zenhei/wqy-zenhei.ttc"
+        }, 
+        {
+            "text": "真好吃", 
+            "start": 4, 
+            "end": 9, 
+            "x": 500, 
+            "y": 300, 
+            "fontsize": 80, 
+            "fontcolor": "#00FFFF", 
+            "fade_in": 1, 
+            "fade_out": 1, 
+            "fontfile": "/usr/share/fonts/wenquanyi/wqy-zenhei/wqy-zenhei.ttc"
+        }
+    ], 
+    "images": [
+        {
+            "x": 200, 
+            "y": 200, 
+            "source": "./Mario-icon.png", 
+            "start": 4, 
+            "end": 6
+        }, 
+        {
+            "x": 200, 
+            "y": 200, 
+            "source": "./Study-icon.png", 
+            "start": 6, 
+            "end": 10, 
+            "animation_x": 800, 
+            "animation_y": 0, 
+            "animation_span": 1
+        }, 
+        {
+            "x": 400, 
+            "y": 100, 
+            "source": "./cd761935a674fdb22b1632d0e2a7b768.gif", 
+            "start": 3, 
+            "end": 8
+        }
+    ]
+}

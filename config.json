@@ -1,0 +1,48 @@
+{
+    "texts": [
+        {
+            "start": 1.8669,
+            "end": 3.5648,
+            "x": 63,
+            "y": 414,
+            "fontsize": 35,
+            "fontcolor": "white",
+            "fontfile": "\/usr\/share\/fonts\/wenquanyi\/wqy-zenhei\/wqy-zenhei.ttc",
+            "text": "momo"
+        },
+        {
+            "start": 3.6158,
+            "end": 6.3388,
+            "x": 63,
+            "y": 414,
+            "fontsize": 35,
+            "fontcolor": "white",
+            "fontfile": "\/usr\/share\/fonts\/wenquanyi\/wqy-zenhei\/wqy-zenhei.ttc",
+            "text": "\u4eca\u5929\u8981\u4f86\u9304\u5f71\u7247"
+        },
+        {
+            "start": 7.0653,
+            "end": 8.9857,
+            "x": 63,
+            "y": 414,
+            "fontsize": 35,
+            "fontcolor": "white",
+            "fontfile": "\/usr\/share\/fonts\/wenquanyi\/wqy-zenhei\/wqy-zenhei.ttc",
+            "text": "\u591c\u591c\u591c"
+        },
+        {
+            "fontsize": 20,
+            "fontcolor": "red",
+            "x": 521,
+            "y": 460,
+            "is_timestamp": 1
+        }
+    ],
+    "images": [
+        {
+            "x": 0,
+            "y": 0,
+            "source": "\/srv\/http\/phenon_newest.png"
+        }
+    ]
+}
